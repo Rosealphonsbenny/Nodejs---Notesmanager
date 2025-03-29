@@ -116,13 +116,7 @@ const server = http.createServer(async(req,res)=>{
             res.end(JSON.stringify({message:"Error while deleting the data"}));
         }
 
-
-
    }
-
-
-
-
 
         else{
             res.writeHead(404);
